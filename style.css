@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@font-face {
+    font-family: light;
+    src: url(fonts/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: regular;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: bolde;
+    src: url(fonts/Montserrat-SemiBold.ttf);
+}
+
+/*ZERANDO CSS*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*STYLO HTML*/
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+/*STYLO BODY*/
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.26)), url(imagens/karsten-winegeart-0Wra5YYVQJE-unsplash.jpg);
+    background-position: center center;
+    background-position-x: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*STYLO CABEÇALHO*/
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.247);
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+}
+
+.logo a{
+    font-family: light;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.logo a:hover{
+    color: rgb(229, 255, 0);
+    transition: 0.5s;
+}
+
+/*STYLO MENU*/
+li{
+    list-style: none;
+}
+.nav .navbts{
+    font-family: light;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.nav .navbts:hover{
+    border-bottom: 2px solid rgb(229, 255, 0);
+    color: rgb(229, 255, 0);
+    transition: 0.5s;
+}
+
+/*STYLO ICONES SOCIAL MEDIA*/
+.social{
+    display: flex;
+}
+
+.socialbts{
+    color: white;
+    padding: 20px;
+}
+
+.socialbts:hover{
+    color: rgb(229, 255, 0);
+    transition: 0.5s;
+}
+
+/*STYLO SECTION*/
+section{
+
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    margin-top: 100px;   
+}
+
+.texto01{
+    font-family: bolde;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+    
+}
+
+.texto02{
+    font-family: light;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+.contorno{
+    border-bottom: 1.5px solid white;
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+p{
+    font-family: light;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btn a{
+    color: white;
+    font-size: 70px;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+.btn a:hover{
+    color: rgb(229, 255, 0);
+    transition: 0.5s;
+}
+

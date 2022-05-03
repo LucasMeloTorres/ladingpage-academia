@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 690px){
+
+    body{
+        background: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.26)), url(imagens/karsten-winegeart-0Wra5YYVQJE-unsplash.jpg);
+        background-position: top right;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .social{
+        display: flex;
+    }
+
+    header{
+        height: 220px;
+        flex-direction: column;
+    }
+
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .nav .navbts:hover{
+        border-bottom: none;
+        color: rgb(229, 255, 0);
+        transition: 0.5s;
+        }
+
+    li{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .social{
+        display: none;
+    }
+
+    .texto{
+        margin-top: 50px;
+    }
+    .texto01{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .texto02{
+        text-align: center;
+        font-size: 2rem;
+    }
+}
